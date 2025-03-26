@@ -1,0 +1,21 @@
+{
+  "name": "webpack-plugin-project",
+  "version": "1.0.0",
+  "description": "A custom Webpack plugin project",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack"
+  },
+  "keywords": [
+    "webpack",
+    "plugin"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^27.0.0",
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0"
+  }
+}
