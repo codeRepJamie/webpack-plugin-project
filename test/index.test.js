@@ -14,6 +14,4 @@ describe('MyWebpackPlugin', () => {
     it('should have an apply method', () => {
         expect(typeof plugin.apply).toBe('function');
     });
-
-    // Add more tests to validate the plugin's functionality
 });
