@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "jest",
+    "test2": "webpack --config test.config.js",
     "build": "webpack",
     "format": "prettier --write ."
   },
@@ -15,6 +16,9 @@
   ],
   "author": "Your Name",
   "license": "MIT",
+  "peerDependencies": {
+    "webpack": "^5.0.0"
+  },
   "devDependencies": {
     "@babel/core": "^7.26.10",
     "@babel/preset-env": "^7.26.9",

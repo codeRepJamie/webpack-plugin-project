@@ -14,7 +14,7 @@ class FileListPlugin {
 
   apply(compiler) {
     const pluginName = FileListPlugin.name;
-    debugger
+
     // webpack module instance can be accessed from the compiler object,
     // this ensures that correct version of the module is used
     // (do not require/import the webpack or any symbols from it directly).
